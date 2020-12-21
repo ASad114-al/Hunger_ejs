@@ -7,7 +7,7 @@ header{
     background-image: url(../img/header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  height: 110vh;
+  height: 100vh;
  
 }
 nav{
@@ -42,5 +42,131 @@ nav{
 
 .nav_header img{
     margin-left: 15px;
-    transform: translateY(47px);
+    transform: translateY(50px);
 }
+
+#hero{
+    display: grid;
+    grid-template-columns: 20% 75% 20%
+}
+#zeit
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+   
+}
+#zeit p{
+    transform: rotate(180deg);
+    color: #ffffff;
+    writing-mode: vertical-lr;
+    font-size: .8em;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    transform: translateY(-200px);
+}
+#heroMain
+{
+    text-align: center;
+    height: 100%;
+    margin-right: 20%;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+#heroMain h1{
+font-family: Banny;
+font-size: 96px;
+line-height: 0px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+transform: translateY(257px);
+margin-left: 13%;
+}
+#heroMain h6{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.5em;
+text-transform: uppercase;
+color: #FFFFFF;
+transform: translateY(197px);
+margin-left: 12px;
+}
+#heroMain div ,.slide-bottom{
+    transform: translateY(-697px);
+}
+.slide-bottom
+{
+    margin-top: 10%;
+}
+#heroMain div a{
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 20px 60px;
+    text-decoration: none;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin-right: 20px;
+   
+}
+#heroMain div a
+{
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 20px 60px;
+    text-decoration: none;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+.line
+{
+    height: 110vh;
+}
+
+#explore
+{
+   
+border: 1px solid rgba(255, 255, 255, 0.5);
+box-sizing: border-box;
+border-radius: 5px;
+}
+#book
+{
+  
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#book:hover, #explore:hover
+{
+    background: #E8C300;
+}
+
+ #soial_media
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    row-gap: 100px;
+    margin-right: 100%;
+    transform: translateY(-200px);
+   
+   
+} 
+
+#hero article:nth-of-type(3) a{
+    width: 20px;
+    height: 20px;
+}
+
+
