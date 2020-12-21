@@ -160,8 +160,6 @@ border-radius: 5px;
     row-gap: 100px;
     margin-right: 100%;
     transform: translateY(-200px);
-   
-   
 } 
 
 #hero article:nth-of-type(3) a{
@@ -169,4 +167,22 @@ border-radius: 5px;
     height: 20px;
 }
 
+#line2
+{
+    transform: translateY(400px);
+}
+footer{
+    margin-top:5%;
+    background: rgba(0, 0, 0, 0.9);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 12px;
+}
 

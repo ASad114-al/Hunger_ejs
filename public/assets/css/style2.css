@@ -1,0 +1,53 @@
+.main_about
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.mainFlexFrame
+{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.frameRight
+{
+    background: url(../img/abou2.png);
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1550px;
+    top: 1343px;
+    border: 20px solid #E8C300;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
+
+}
+.mainFlexText
+{
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 15%;
+    /* width: 50%; */
+}
+
+.mainFlexText h2{
+font-family: Banny;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+.mainFlexText h5
+{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+margin-bottom: 3%;
+color: #000000;
+}
