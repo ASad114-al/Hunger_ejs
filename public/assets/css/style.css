@@ -10,11 +10,21 @@ header{
   height: 110vh;
  
 }
-  nav .nav_header{
-    height: 15vh;
+nav{
     display: flex;
-    justify-content: space-around;
-    align-items: center; 
+    justify-content: space-evenly;
+}
+  nav .nav_header{
+  
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+     width: 70%; 
+     border-bottom : 1px solid rgba(255, 255, 255, 0.2);
+     margin-left: 7%;
+     margin-right:7%;
+     align-items: center;
+     height: 12vh;
 }
 .nav_header li{
     list-style: none;
