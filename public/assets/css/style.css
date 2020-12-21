@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 110vh;
+ 
+}
+  nav .nav_header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.nav_header li{
+    list-style: none;
+}
+.nav_header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: .9em;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.nav_header img{
+    margin-left: 15px;
+    transform: translateY(47px);
+}
