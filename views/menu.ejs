@@ -1,6 +1,36 @@
 <%- include ('./partials/head') %>
 <%- include('./partials/nav') %>
-<h1>Menu</h1>
 
+<section class="menu-section">
+    <article class="menu-div">
+        <h1>DELICIOUS MENU</h1>
+        <img src="/img/angle2.png" alt="">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor
+            magna.</h3>
+        <article class="menu-list">
+            <h5 class="menu-h5"><a href="">SOUP</a> </h5>
+            <h5 class="menu-h5"><a href="">PIZZA</a></h5>
+            <h5 class="menu-h5"><a href="">PASTA</a></h5>
+            <h5 class="menu-h5"><a href="">DESSERT</a></h5>
+            <h5 class="menu-h5"><a href="">WINE</a></h5>
+            <h5 class="menu-h5"><a href="">BEER</a></h5>
+            <h5><a href="">DRINKS</a></h5>
+        </article>
+    </article>
+    <article class="menu-forEach">
+        <% myData.forEach(data=>{%>
+            <div class="div-forEach">
+                <h1>
+                    <%= data.name %> . . . . <%= data.price %>
+                </h1>
+                <p>
+                    <%= data.disc %>
+                </p>
+            </div>
+            <%}) %>
+
+    </article>
+
+</section>
 
 <%- include ('./partials/footer') %>

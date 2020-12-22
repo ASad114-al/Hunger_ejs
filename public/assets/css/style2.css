@@ -35,7 +35,7 @@
 }
 
 .mainFlexText h2{
-font-family: Banny;
+font-family: 'Banny';
 font-size: 36px;
 line-height: 48px;
 text-align: center;
@@ -206,7 +206,7 @@ border-radius: 5px;
 }
 #books h2
 {
-font-family: Banny;
+font-family: 'Banny';
 font-size: 36px;
 line-height: 48px;
 text-align: center;
@@ -266,7 +266,7 @@ color: #FFFFFF;
 }
 .galerie_text h2
 {
-    font-family: Banny;
+    font-family: 'Banny';
     font-size: 36px;
     line-height: 48px;
     text-align: center;
@@ -293,4 +293,108 @@ color: rgba(255, 255, 255, 0.9);
 {
     color: rgba(255, 255, 255, 0.9);
 }
+/* ............. */
+/*  Aktives Menu mit underline*/
+#activeMenus a:focus{
+    text-decoration: underline;
+    border-bottom: 1px solid red;
+}
 
+
+/* menu Style */
+.menu-section {
+    min-height: 90vh;
+  }
+  .menu-div {
+    text-align: center;
+  }
+  .menu-div h1 {
+    font-size: 3rem;
+    font-family: Banny;
+    margin-bottom: 1%;
+    text-transform: uppercase;
+    margin-top: 7%;
+  }
+  .menu-div h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    width: 36%;
+    margin-left: 32%;
+  }
+  .menu-list {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+  
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+    margin-top: 7%;
+  }
+  .menu-list h5 {
+    padding: 2% 4%;
+  }
+  .menu-h5 {
+    border-right: 3px solid rgba(51, 51, 51, 0.2);
+  }
+  .menu-list h5 a {
+    text-decoration: none;
+    color: black;
+  }
+  .menu-forEach {
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 7%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 5%;
+  }
+  .div-forEach {
+    margin-bottom: 6%;
+  }
+  
+  .menu-forEach h1 {
+    font-family: Banny;
+    font-size: 25px;
+  }
+  .menu-forEach p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: rgba(51, 51, 51, 0.5);
+    margin-bottom: 2%;
+  }
+  /* event Style */
+  .event-section {
+    background: url(../img/bg.png) center / cover no-repeat;
+    height: 90vh;
+    color: #ffffff;
+    text-align: center;
+  }
+  .event-div {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+  
+    align-items: center;
+    height: 75vh;
+    margin-right: 3%;
+  }
+  .event-div img {
+    width: 110%;
+  }
+  .event-section h4 {
+    font-family: "Open Sans", sans-serif;
+    padding-top: 3%;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+  .event-section p {
+    font-family: "Open Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+  }
