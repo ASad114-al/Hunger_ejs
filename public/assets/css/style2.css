@@ -28,7 +28,7 @@
 .mainFlexText
 {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: 15%;
     /* width: 50%; */
 }
@@ -92,7 +92,6 @@ padding-bottom: 35px;
 border-radius: 5px;
 padding-top: 10px;
 padding-left: 2px;
-
 }
 #message
 {
@@ -130,9 +129,50 @@ form div
 .map img
 {
     width: 100%;
-
+   
 }
 .map{
-    margin-top: 5%;
+    margin-top: 35%;
     margin-bottom: -5%;
+}
+/* Event */
+.event
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.event img
+{
+    width: 100%;
+}
+/* .main_event ,.event */
+#event-bk
+{
+background-image: url(../img/event_bk.png) ;
+background-size: cover;
+background-repeat: no-repeat;
+ height: 110vh;
+ 
+}
+.main_event h4
+{
+text-align: center;
+padding-top: 5%;
+letter-spacing: 0.5em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.main_event p
+{
+
+position: absolute;
+left: 35%;
+bottom: -108%;
+color: #FFFFFF;
+}
+/* Booking */
+.mainFlex
+{
+display: grid;
+grid-template-columns: repeat(2,1fr);
 }

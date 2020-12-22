@@ -65,7 +65,7 @@ nav{
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    transform: translateY(-200px);
+    transform: translateY(-600px);
 }
 #heroMain
 {
@@ -103,7 +103,9 @@ margin-left: 12px;
 }
 .slide-bottom
 {
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    transform: translateY(-1350px);
+   
 }
 #heroMain div a{
     border-radius: 5px;
@@ -127,15 +129,22 @@ margin-left: 12px;
 }
 .line
 {
-    height: 110vh;
+    height: 193vh; 
+    
+}
+#btn
+{
+   /*  padding-top: -150%; */
+    position: relative;
+    top: -40%;
 }
 
 #explore
 {
-   
 border: 1px solid rgba(255, 255, 255, 0.5);
 box-sizing: border-box;
 border-radius: 5px;
+margin-left: 5%;
 }
 #book
 {
@@ -143,6 +152,7 @@ border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     box-sizing: border-box;
     border-radius: 5px;
+  /*   transform: translateY(600px); */
 }
 #book:hover, #explore:hover
 {
@@ -159,12 +169,12 @@ border-radius: 5px;
     height: 100%;
     row-gap: 100px;
     margin-right: 100%;
-    transform: translateY(-200px);
+    transform: translateY(-600px);
 } 
-
-#hero article:nth-of-type(3) a{
+#soial_media a{
     width: 20px;
     height: 20px;
+    
 }
 
 #line2
@@ -172,12 +182,12 @@ border-radius: 5px;
     transform: translateY(400px);
 }
 footer{
-    margin-top:5%;
+    height: 10vh;
     background: rgba(0, 0, 0, 0.9);
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+  /*  margin-top: 30%; */
 }
 footer p{
     color: rgba(255, 255, 255, 0.5);
