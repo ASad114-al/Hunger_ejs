@@ -2,6 +2,7 @@
 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    margin-top: 20%;
    
 }
 .mainFlexFrame
@@ -18,7 +19,7 @@
     width: 250px;
     height: 250px;
     left: 1550px;
-    top: 1343px;
+    top: 1773px;
     border: 20px solid #E8C300;
     box-sizing: border-box;
     filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
@@ -70,7 +71,7 @@ color: #000000;
 .contact_info
 {
    text-align: center;
-    margin-top: 5%;
+    margin-top: 25%;
 }
 .contact_info h5
 {
@@ -145,7 +146,7 @@ form div
 {
     width: 100%;
 }
-/* .main_event ,.event */
+
 #event-bk
 {
 background-image: url(../img/event_bk.png) ;
@@ -175,4 +176,53 @@ color: #FFFFFF;
 {
 display: grid;
 grid-template-columns: repeat(2,1fr);
+margin-bottom: 30%;
+margin-top: 20%;
 }
+.inputBox
+{
+    height: 60px;
+    width: 277px;
+    border-radius: 5px;
+   padding-right: -10px;
+background: #E5E5E5;
+border-radius: 5px;
+}
+.btnWide
+{   height: 60px;
+    width: 563.5763549804688px;
+    border-radius: 5px;
+    background: #E8C300;
+    color: #E5E5E5; 
+}
+#form_booking
+{
+    margin-top:20%;
+    margin-left: 15%;
+}
+#books
+{
+    padding-bottom: 5%;
+}
+#books h2
+{
+font-family: Banny;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+#zeit_booking
+{   
+margin-top: 25%;
+margin-left: 75%;
+width: 100%;
+color: rgba(51, 51, 51, 0.5);
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+}
+

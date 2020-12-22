@@ -187,7 +187,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-  /*  margin-top: 30%; */
+   margin-top: 10%;
 }
 footer p{
     color: rgba(255, 255, 255, 0.5);
