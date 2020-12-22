@@ -103,9 +103,7 @@ margin-left: 12px;
 }
 .slide-bottom
 {
-    /* margin-top: 10%; */
-    transform: translateY(-1450px);
-   
+    transform: translateY(-1450px);  
 }
 #heroMain div a{
     border-radius: 5px;
@@ -134,7 +132,6 @@ margin-left: 12px;
 }
 #btn
 {
-   /*  padding-top: -150%; */
     position: relative;
     top: -40%;
 }
@@ -148,11 +145,9 @@ margin-left: 5%;
 }
 #book
 {
-  
     border: 1px solid rgba(255, 255, 255, 0.5);
     box-sizing: border-box;
     border-radius: 5px;
-  /*   transform: translateY(600px); */
 }
 #book:hover, #explore:hover
 {
@@ -161,7 +156,6 @@ margin-left: 5%;
 
  #soial_media
 {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,7 +168,6 @@ margin-left: 5%;
 #soial_media a{
     width: 20px;
     height: 20px;
-    
 }
 
 #line2
